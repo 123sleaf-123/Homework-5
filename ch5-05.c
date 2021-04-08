@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main()
+{
+    float total = 0.0;
+    float grade = 0.0;
+    int count = 0;
+    while (count < 30)
+    {
+        printf("Enter a grade: ");
+        scanf("%f", &grade);
+        if (grade < 0 || grade > 100)
+            continue; /* skip the statements below*/
+
+        total = total + grade;
+        count = count + 1;
+        /* continue jumps to here */
+    }
+
+    return 0;
+}
