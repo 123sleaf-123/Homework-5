@@ -5,7 +5,7 @@ int main()
     float total = 0.0;
     float grade = 0.0;
     int count = 0;
-    while (++count =< 30)
+    while (++count <= 30)
     {
         printf("Enter a grade: ");
         scanf("%f", &grade);
